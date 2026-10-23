@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfólio de Alexandre Santana Farias, estudante de Informática para Internet com objetivo de se tornar Desenvolvedor Full Stack.">
+  <meta name="theme-color" content="#fffaf5">
+  <title>Alexandre Santana Farias | Portfólio</title>
+  <!-- Google Fonts e Bootstrap Icons são carregados exclusivamente por links no head. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+  <header class="cabecalho" id="inicio">
+    <nav class="navegacao contêiner" aria-label="Navegação principal">
+      <a class="marca" href="#inicio" aria-label="Alexandre Santana Farias, início"><span class="marca-símbolo">A<span>.</span></span><span class="marca-texto">Alexandre <span>Santana</span></span></a>
+      <button class="botao-menu" id="botao-menu" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="lista-navegacao"><i class="bi bi-list" aria-hidden="true"></i></button>
+      <div class="lista-navegacao" id="lista-navegacao">
+        <a href="#sobre">Sobre</a><a href="#formacao">Formação</a><a href="#projetos">Projetos</a><a href="#contato">Contato</a>
+        <button class="botao-tema" id="botao-tema" type="button" aria-label="Ativar tema escuro"><i class="bi bi-moon-stars" aria-hidden="true"></i><span class="texto-tema">Tema escuro</span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="secao-hero contêiner">
+      <div class="hero-conteudo aparece">
+        <p class="sobretitulo"><span class="ponto-status" aria-hidden="true"></span> Estudante de tecnologia</p>
+        <h1>Olá, eu sou<br><span class="texto-destaque">Alexandre Santana Farias.</span></h1>
+        <p class="hero-descricao">Estou no início da minha jornada em tecnologia e tenho como objetivo me tornar <strong>Desenvolvedor Full Stack</strong>.</p>
+        <p class="linha-digitacao" aria-label="Objetivo profissional"><span id="texto-digitacao">Desenvolvedor Full Stack</span><span class="cursor-digitacao" aria-hidden="true">|</span></p>
+        <div class="hero-acoes"><a class="botao botao-principal" href="#projetos">Ver meus projetos <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a><a class="botao botao-secundario" href="#contato">Entrar em contato</a></div>
+        <div class="links-sociais" aria-label="Links de contato">
+          <a href="https://github.com/alexandre-777" target="_blank" rel="noopener noreferrer" aria-label="GitHub (abre em nova aba)"><i class="bi bi-github" aria-hidden="true"></i></a>
+          <a href="mailto:santanaalexandre1955@gmail.com" aria-label="Enviar e-mail"><i class="bi bi-envelope" aria-hidden="true"></i></a>
+          <a href="https://wa.me/5565984128562" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp (abre em nova aba)"><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="hero-visual aparece" aria-label="Cartão ilustrativo com informações profissionais">
+        <div class="cartao-destaque">
+          <div class="cartao-topo"><span></span><span></span><span></span><p>meu-perfil.js</p></div>
+          <div class="codigo-perfil">
+            <p><span class="codigo-chave">const</span> perfil = {</p>
+            <p class="codigo-recuo"><span class="codigo-propriedade">nome</span>: <span class="codigo-valor">'Alexandre Santana Farias'</span>,</p>
+            <p class="codigo-recuo"><span class="codigo-propriedade">formacao</span>: <span class="codigo-valor">'Informática para Internet'</span>,</p>
+            <p class="codigo-recuo"><span class="codigo-propriedade">objetivo</span>: <span class="codigo-valor">'Full Stack'</span>,</p>
+            <p class="codigo-recuo"><span class="codigo-propriedade">status</span>: <span class="codigo-valor">'sempre aprendendo'</span></p><p>};</p>
+          </div>
+          <div class="cartao-rodape"><span class="ponto-status" aria-hidden="true"></span> Em constante aprendizado</div>
+        </div>
+        <span class="elemento-flutuante elemento-flutuante-um" aria-hidden="true"><i class="bi bi-code-slash"></i></span><span class="elemento-flutuante elemento-flutuante-dois" aria-hidden="true"><i class="bi bi-braces"></i></span>
+      </div>
+      <a class="indicador-rolagem" href="#sobre"><span></span> Role para explorar</a>
+    </section>
+
+    <section class="secao secao-sobre" id="sobre"><div class="contêiner grade-sobre">
+      <div class="cabecalho-secao aparece"><p class="sobretitulo">01 / Sobre mim</p><h2>Aprendendo hoje.<br><span class="texto-destaque">Construindo o amanhã.</span></h2></div>
+      <div class="texto-sobre aparece">
+        <p>Meu nome é Alexandre Santana Farias e sou estudante do Ensino Médio Técnico em Informática para Internet, atualmente no 1º ano.</p>
+        <p>Meu objetivo profissional é me tornar Desenvolvedor Full Stack. Estou construindo minha base em tecnologia por meio dos estudos e de projetos próprios, evoluindo passo a passo.</p>
+        <p>Este portfólio reúne alguns dos meus projetos e repositórios. Quero continuar aprendendo, praticando e transformando ideias em soluções digitais.</p>
+        <div class="etiquetas-tecnologia"><span>JavaScript</span><span>Algoritmos</span><span>Desenvolvimento web</span><span>Full Stack</span></div>
+      </div>
+    </div></section>
+
+    <section class="secao" id="formacao"><div class="contêiner">
+      <div class="cabecalho-secao centralizado aparece"><p class="sobretitulo">02 / Minha jornada</p><h2>Formação e <span class="texto-destaque">objetivos</span></h2><p>O ponto de partida para uma carreira em desenvolvimento.</p></div>
+      <div class="linha-tempo">
+        <article class="item-tempo aparece"><span class="marcador-tempo" aria-hidden="true"></span><div class="cartao-tempo"><span class="etiqueta-tempo">Etapa atual</span><h3>Ensino Médio Técnico em Informática para Internet</h3><p class="texto-secundario">1º ano</p><p>Formação técnica em andamento, com foco no aprendizado de fundamentos de tecnologia e desenvolvimento para internet.</p></div></article>
+        <article class="item-tempo aparece"><span class="marcador-tempo" aria-hidden="true"></span><div class="cartao-tempo"><span class="etiqueta-tempo">Objetivo profissional</span><h3>Desenvolvedor Full Stack</h3><p>Meu objetivo é desenvolver conhecimentos para trabalhar tanto na interface quanto na lógica e no funcionamento de aplicações.</p></div></article>
+      </div>
+    </div></section>
+
+    <section class="secao secao-projetos" id="projetos"><div class="contêiner">
+      <div class="cabecalho-secao aparece"><p class="sobretitulo">03 / Trabalhos selecionados</p><h2>Projetos em <span class="texto-destaque">destaque</span></h2><p>Projetos informados e seus respectivos repositórios públicos no GitHub.</p></div>
+      <div class="grade-projetos">
+        <article class="cartao-projeto aparece"><div class="projeto-ilustracao ilustracao-musical" aria-hidden="true"><i class="bi bi-music-note-beamed"></i><span>01</span></div><div class="projeto-corpo"><p class="projeto-categoria">Projeto pessoal</p><h3>Compasso Musical</h3><p>Projeto musical. Consulte o repositório para conhecer os arquivos, recursos e detalhes da implementação.</p><div class="projeto-tecnologias"><span>GitHub</span><span>Projeto web</span></div><a class="link-projeto" href="https://github.com/alexandre-777/compasso-musical" target="_blank" rel="noopener noreferrer">Ver repositório <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div></article>
+        <article class="cartao-projeto aparece"><div class="projeto-ilustracao ilustracao-robo" aria-hidden="true"><i class="bi bi-robot"></i><span>02</span></div><div class="projeto-corpo"><p class="projeto-categoria">Projeto pessoal</p><h3>RoboMaker</h3><p>Projeto RoboMaker. Acesse o repositório para conferir seu conteúdo e acompanhar o desenvolvimento.</p><div class="projeto-tecnologias"><span>GitHub</span><span>Projeto web</span></div><a class="link-projeto" href="https://github.com/alexandre-777/projeto-robomaker" target="_blank" rel="noopener noreferrer">Ver repositório <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div></article>
+      </div>
+    </div></section>
+
+    <section class="secao secao-repositorios" id="repositorios"><div class="contêiner">
+      <div class="cabecalho-secao aparece"><p class="sobretitulo">04 / Código e prática</p><h2>Meus <span class="texto-destaque">repositórios</span></h2></div>
+      <div class="lista-repositorios">
+        <a class="item-repositorio aparece" href="https://github.com/alexandre-777/JavaScript" target="_blank" rel="noopener noreferrer"><span class="icone-repositorio"><i class="bi bi-filetype-js" aria-hidden="true"></i></span><span class="repositorio-texto"><strong>JavaScript</strong><small>Repositório de estudos e códigos</small></span><i class="bi bi-arrow-up-right seta-repositorio" aria-hidden="true"></i></a>
+        <a class="item-repositorio aparece" href="https://github.com/alexandre-777/algoritimos" target="_blank" rel="noopener noreferrer"><span class="icone-repositorio"><i class="bi bi-braces" aria-hidden="true"></i></span><span class="repositorio-texto"><strong>Algoritmos</strong><small>Repositório de algoritmos</small></span><i class="bi bi-arrow-up-right seta-repositorio" aria-hidden="true"></i></a>
+      </div>
+    </div></section>
+
+    <section class="secao secao-contato" id="contato"><div class="contêiner contato-caixa aparece">
+      <div class="cabecalho-secao"><p class="sobretitulo">05 / Vamos conversar</p><h2>Uma ideia começa<br>com um <span class="texto-destaque">olá.</span></h2><p>Entre em contato por um dos canais abaixo.</p></div>
+      <div class="grade-contatos">
+        <a class="cartao-contato contato-email" href="mailto:santanaalexandre1955@gmail.com"><i class="bi bi-envelope" aria-hidden="true"></i><span><small>E-mail</small><strong>santanaalexandre1955@gmail.com</strong></span><i class="bi bi-arrow-up-right seta-contato" aria-hidden="true"></i></a>
+        <a class="cartao-contato contato-whatsapp" href="https://wa.me/5565984128562" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp" aria-hidden="true"></i><span><small>WhatsApp</small><strong>+55 65 98412-8562</strong></span><i class="bi bi-arrow-up-right seta-contato" aria-hidden="true"></i></a>
+        <a class="cartao-contato contato-github" href="https://github.com/alexandre-777" target="_blank" rel="noopener noreferrer"><i class="bi bi-github" aria-hidden="true"></i><span><small>GitHub</small><strong>alexandre-777</strong></span><i class="bi bi-arrow-up-right seta-contato" aria-hidden="true"></i></a>
+        <!-- LinkedIn fica intencionalmente sem link até o perfil ser informado. -->
+        <div class="cartao-contato contato-linkedin" aria-label="LinkedIn: link ainda não informado"><i class="bi bi-linkedin" aria-hidden="true"></i><span><small>LinkedIn</small><strong>Link a adicionar</strong></span></div>
+      </div>
+      <p class="nota-curriculo"><i class="bi bi-info-circle" aria-hidden="true"></i> Currículo em PDF: disponível futuramente.</p>
+    </div></section>
+  </main>
+
+  <footer class="rodape"><div class="contêiner rodape-conteudo"><a class="marca" href="#inicio"><span class="marca-símbolo">A<span>.</span></span><span class="marca-texto">Alexandre <span>Santana</span></span></a><p>Feito com dedicação e vontade de aprender.</p><p>© <span id="ano-atual"></span> Alexandre Santana Farias</p></div></footer>
+  <button class="voltar-topo" id="voltar-topo" type="button" aria-label="Voltar ao topo"><i class="bi bi-arrow-up" aria-hidden="true"></i></button>
+</body>
+</html>
